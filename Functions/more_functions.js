@@ -18,21 +18,21 @@ let someNumber2=5;
 let equation=someNumber + someNumber2;
 console.log(equation)*/
 
-function displayReceipt(amountPaid, totalDue){
+function displayReceipt(amountPaid, totalDue) {
 
-// Declare variables
-let message;
+    // Declare variables
+    let message;
 
-// Algoritme and calculation  step by step// Pseudocode
-let changeDue=amountPaid-totalDue;
-if(amountPaid<totalDue){
-    message='needs to pay:';  
-}
-else {
- message = 'You paid more than enough'
-}
+    // Algoritme and calculation  step by step// Pseudocode
+    let changeDue = amountPaid - totalDue;
+    if (amountPaid < totalDue) {
+        message = 'needs to pay:';
+    }
+    else {
+        message = 'You paid more than enough'
+    }
 
-//output
-console.log('$' + changeDue + message)
+    //output
+    console.log(message + " " + '$' + changeDue)
 }
-displayReceipt(10,5);
+displayReceipt(10, 5);
