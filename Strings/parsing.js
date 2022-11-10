@@ -1,5 +1,5 @@
 function parseAndDisplayName(fullName) {
-    //index returns the position of the first occurrence of value in a string which in this case is michael
+    //index returns the location of what i input in the index ()
     let result = fullName.indexOf(' ')
     console.log(result)
     
